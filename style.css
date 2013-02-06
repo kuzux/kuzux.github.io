@@ -1,9 +1,13 @@
+body{
+    font-size: 16px;
+}
+
 h1{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'MgOpen Cosmetica', sans-serif;
 }
 
 h2{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'MgOpen Cosmetica', sans-serif;
 	color: #5C4E54;
 }
 
@@ -20,3 +24,20 @@ p {
 	font-style: italic;
 }
 
+.post p {
+    font-family: 'MgOpen Canonica', serif;
+}
+
+.hyphenate{
+    text-align: justify;
+}
+
+.container-fluid {
+    max-width: 650px;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
