@@ -1,5 +1,12 @@
 body{
     font-size: 16px;
+    background-color: #FCFDFC;
+    -moz-font-feature-settings:"liga", "dlig";
+    -ms-font-feature-settings:"liga", "dlig"; 
+    -o-font-feature-settings:"liga", "dlig"; 
+    -webkit-font-feature-settings:"liga", "dlig"; 
+    font-feature-settings:"liga", "dlig";
+    font-variant-ligatures: common-ligatures;
 }
 
 h1{
@@ -11,33 +18,37 @@ h2{
 	color: #5C4E54;
 }
 
-p {
+.date{
+	color: #78686F;
+	font-style: italic;
+    text-align: right;
+}
+
+.post p, .post li {
+    font-family: 'MgOpen Canonica', serif;
+}
+
+.hyphenate{
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -o-hyphens: auto;
     hyphens: auto;
-}
-
-.date{
-	color: #78686F;
-	font-style: italic;
-}
-
-.post p {
-    font-family: 'MgOpen Canonica', serif;
-}
-
-.hyphenate{
     text-align: justify;
 }
 
-.container-fluid {
+.main-body {
     max-width: 650px;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+    margin-top: 1em;
 }

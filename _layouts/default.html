@@ -11,17 +11,21 @@
 
         <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script type="text/javascript" src="/hyphenate.js"></script>
-        
+        <script type="text/javascript" src="/ligature.js"></script>
+
         <script type="text/javascript" src="/site.js"></script>
         <script type="text/javascript">
-            Hyphenator.run();
+            $(document).load(function(){
+                Hyphenator.run();
+                ligature();
+            });
         </script>
 
         <link rel="stylesheet" href="/fonts.css" />
         <link rel="stylesheet" href="/style.css" />
     </head>
     <body>
-        <div class="container-fluid centered">
+        <div class="container-fluid main-body centered">
             <header class="row-fluid">
                 <div class = "span12">
                     <h1>Wait, is that a blog of some sorts?</h1>

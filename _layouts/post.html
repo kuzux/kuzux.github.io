@@ -4,10 +4,11 @@ layout: default
 
 <div class="post">
 	<h2>{{ page.title }}</h2>
-	<span class="date">{{ page.date | date_to_string }}</span>
+	<p class="date">{{ page.date | date_to_string }}</p>
     <div class="hyphenate">
 	{{ content }}
     </div>
-	<a href="/">Home</a>
 </div>
 
+<hr />
+<footer><a href="/"><i class="icon-home"></i>Home</a></footer>
