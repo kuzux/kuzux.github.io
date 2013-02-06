@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 	<head>
 		<title> {{ page.title }} </title>
+		<meta charset="utf-8">
+		<meta name="author" content="Arda Cinar" />
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
 		<link rel="stylesheet" href="/style.css" />
+		<script type="text/javascript" src="/site.js"></script>
+		<script type="text/javascript" src="/hyphenate.js"></script>
+		<script type="text/javascript">
+			Hyphenator.run();
+		</script>
+		<script type="text/x-mathjax-config">
+		    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	</head>
 	<body>
-		<div id="content">
-			<div id="header">
-				<h1>Wait, is that a blog of some sorts?</h1>
-				<hr />
-			</div>
+		<header>
+			<h1>Wait, is that a blog of some sorts?</h1>
+			<hr />
+		</header>
+		<section>
 			{{ content }}
-		</div>
+		</section>
 	</body>
 </html>
 

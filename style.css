@@ -7,14 +7,22 @@ h2{
 	color: #5C4E54;
 }
 
+p {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+
 .date{
 	color: #78686F;
 	font-style: italic;
 }
 
-#content{
+section{
 	width: 65%;
 	margin-left: 10%;
 }
-
 
