@@ -1,5 +1,6 @@
 body{
     font-size: 16px;
+    color: #333;
     background-color: #FCFDFC;
     -moz-font-feature-settings:"liga", "dlig";
     -ms-font-feature-settings:"liga", "dlig"; 
@@ -25,7 +26,7 @@ h2{
 }
 
 .post p, .post li {
-    font-family: 'MgOpen Canonica', serif;
+    font-family: 'georgia', 'times', 'times new roman', serif;
 }
 
 .hyphenate{
