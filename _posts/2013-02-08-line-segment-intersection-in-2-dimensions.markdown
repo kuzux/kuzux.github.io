@@ -7,6 +7,12 @@ lang: en
 <script src = "/line-segment-intersection.js"> </script>
 <style> canvas{ width: 150px; height: 150px; float:left;} .push-down{padding-top: 50px;} </style>
 
+
+* wat
+{:toc}
+
+-----
+
 Geometric things have always been really tricky to program for me, and quite a lot of other people as well. I think I need more practice coding geometric stuff and explaining them in a post would help me remember them well. So I decided this would be the first step since finding whether two line segments on a cartesian plane intersect or not is pretty much the simplest problem to be faced in computational geometry. And hopefully, this will be the first in a series of blog posts.
 
 <div class="row">

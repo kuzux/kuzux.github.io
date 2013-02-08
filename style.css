@@ -57,3 +57,14 @@ h2{
 footer {
     margin-top: 1em;
 }
+
+#markdown-toc {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 2em;
+    padding-right: 1em;
+
+    border: 2px #bbb dashed;
+    display: inline-block;
+    background-color: #eef0ee;
+}
