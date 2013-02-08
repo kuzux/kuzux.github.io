@@ -10,12 +10,11 @@ body{
     font-variant-ligatures: common-ligatures;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'MgOpen Cosmetica', sans-serif;
 }
 
 h2{
-	font-family: 'MgOpen Cosmetica', sans-serif;
 	color: #5C4E54;
 }
 
@@ -25,7 +24,7 @@ h2{
     text-align: right;
 }
 
-.post p, .post li {
+.post p, .post li, .post td, .post div {
     font-family: 'georgia', 'times', 'times new roman', serif;
 }
 
@@ -39,7 +38,7 @@ h2{
 }
 
 .main-body {
-    max-width: 650px;
+    max-width: 32em;
     margin-top: 4em;
     margin-bottom: 4em;
 }
@@ -48,6 +47,11 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 footer {
