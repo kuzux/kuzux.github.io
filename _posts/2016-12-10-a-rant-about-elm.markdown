@@ -37,6 +37,7 @@ foos = [Bar, Baz]
 ```
 
 proposed solution (with typeclasses):
+
 ```
 type Foo = Bar | Baz deriving (Enum)
 
