@@ -63,4 +63,4 @@ f op =
     Y -> 5
 ```
 
-About those final points; if those extra features were grafted onto some imperative language, I would be fairly happy (but still very bitter about the lack of anything like typeclasses/interfaces). But this one with the look of Haskell, but lacking some nice features so that it feels like some kind of Haskell--. 
+About those final points; if those extra features were grafted onto some imperative language, I would be fairly happy (but still very bitter about the lack of anything like typeclasses/interfaces). But this one with the look of Haskell, but lacking some nice features so that it feels like some kind of `Haskell--`. 
