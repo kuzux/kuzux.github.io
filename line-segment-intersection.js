@@ -11,7 +11,7 @@ $(document).ready(function() {
         ctx.fill();
     }
 
-    var drawLine = function(ctx, pts, color){
+    var drawLine = function(ctx, pts, color) {
         drawCircle(ctx, pts[0], pts[1], color);
 
         ctx.beginPath();
@@ -69,7 +69,7 @@ $(document).ready(function() {
     // returns true if point p is contained within ab line segment
     var pointWithinLineSegment = function(ax, ay, bx, by, px, py) {
         var m = (by-ay)/(bx-ax);
-        if((py-ay) == m*(px-ax)){
+        if((py-ay) == m*(px-ax)) {
             if(ax<bx)
                 return ax<=px && px<=bx;
             else
@@ -93,7 +93,7 @@ $(document).ready(function() {
     var checkIntersection = function(pts1, pts2) {
         // check if endpoints of second segment is within the line 
         if(pointWithinLineSegment(pts1[0],pts1[1],pts1[2],pts1[3],pts2[0],pts2[1])
-            || pointWithinLineSegment(pts1[0],pts1[1],pts1[2],pts1[3],pts2[2],pts2[3])){
+            || pointWithinLineSegment(pts1[0],pts1[1],pts1[2],pts1[3],pts2[2],pts2[3])) {
             return true;
         }
 
@@ -122,7 +122,7 @@ $(document).ready(function() {
         var numPoints = 0;
         var points = [];
 
-        var calculateIntersection = function(){
+        var calculateIntersection = function() {
             if(checkIntersection([points[0].x, points[0].y, points[1].x, points[1].y],
                 [points[2].x, points[2].y, points[3].x, points[3].y])){
                 $("#demo-result").html("intersecting");
@@ -132,16 +132,16 @@ $(document).ready(function() {
         }
 
         this.addPoint = function(coords, ctx) {
-            if(numPoints==4) return;
+            if(numPoints == 4) return;
             points[numPoints] = coords;
             numPoints++;
-            if(numPoints==1){
+            if(numPoints==1) {
                 drawCircle(ctx, coords.x, coords.y, "red");
-            } else if(numPoints==2){
+            } else if(numPoints==2) {
                 drawLine(ctx, [points[0].x, points[0].y, coords.x, coords.y], "red");
-            } else if(numPoints==3){
+            } else if(numPoints==3) {
                 drawCircle(ctx, coords.x, coords.y, "green");
-            } else if(numPoints==4){
+            } else if(numPoints==4) {
                 drawLine(ctx, [points[2].x, points[2].y, coords.x, coords.y], "green");
                 calculateIntersection();
             }
@@ -151,7 +151,8 @@ $(document).ready(function() {
     var demo = new Demo();
     var canvas = $("#demo");
     var ctx = canvas[0].getContext("2d");
-    canvas.click(function(evt){
+
+    canvas.click(function(evt) {
         var coords = relMouseCoords(canvas[0], evt);
         demo.addPoint(coords, ctx);
     });
