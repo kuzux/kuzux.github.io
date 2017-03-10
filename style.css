@@ -68,3 +68,13 @@ footer {
     display: inline-block;
     background-color: #eef0ee;
 }
+
+h1 a {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+a h1 {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
