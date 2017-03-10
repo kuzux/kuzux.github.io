@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A Kernel development bug
+comments: true
+lang: en
 ---
 
 So, the thing is; sometime around last year, I decided to write a simple kernel. Just for fun. The thing is called xdillah, it's n my github profile and is ridiculously incomplete as of now. I was actively developing it some time around last summer, and here's a very late post mortem about a bug I encountered sometime last August (or September or something). Oh, also, when developing, I extensively used JamesM's tutorials (the link changes every now and then) and `osdev.org`. Both great resources.

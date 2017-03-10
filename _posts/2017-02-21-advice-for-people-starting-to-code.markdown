@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Advice for people starting to code
+comments: true
+lang: en
 ---
 
 This thing was originally written on eksisozluk (in Turkish obviously), then translated at a later date.

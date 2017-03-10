@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Min berättelse (in Swedish)
+comments: true
+lang: sv
 ---
 
 Hallå alla. Jag har försökt skriva en post på Svenska bara för testa min skicklighet när jag talar (eller skriver på) Svenska. Så jag ska börja med berätta någon detaljer om mig själv. Svenska är min fjärde främmande språk så vänta sig många fel.

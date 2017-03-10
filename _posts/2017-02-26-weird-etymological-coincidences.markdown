@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Weird etymological coincidences
+comments: true
+lang: en
 ---
 
 So, lately, I had a ridiculous amount of free time on hand and was big into language learning (still am). In the process; I noticed a great deal of word pairs in different languages that happened to share a common etymological ancestors. 

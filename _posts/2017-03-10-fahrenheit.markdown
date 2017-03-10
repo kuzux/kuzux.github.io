@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A Criticism on Fahrenheit 451 (The Comic Book adaptation) 
+comments: true
+lang: en
 ---
 
 * wat

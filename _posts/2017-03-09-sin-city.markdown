@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A Criticism on Sin City - Family Values 
+comments: true
+lang: en
 ---
 
 What follows is originally an assignment for school, posting it only after I submitted the assignment. Plus, only posting the bits where I was the main author of.

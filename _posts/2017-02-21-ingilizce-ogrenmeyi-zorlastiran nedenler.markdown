@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Ingilizce ogrenmeyi zorlastiran nedenler (in Turkish)
+comments: true
+lang: tr
 ---
 
 I'm writing this post in Turkish as it is directly related to learning the English language. Having that in English wouldn't make much sense. Oh also; it's copy pasted from something i wrote on eksi sozluk.

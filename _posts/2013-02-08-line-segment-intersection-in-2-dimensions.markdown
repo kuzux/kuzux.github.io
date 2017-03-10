@@ -2,6 +2,7 @@
 layout: post
 title: Line Segment Intersection in 2 Dimensions Explained
 lang: en
+comments: true
 ---
 
 <script src = "/line-segment-intersection.js"> </script>

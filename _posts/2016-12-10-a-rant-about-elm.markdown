@@ -1,7 +1,10 @@
 ---
 layout: post
 title: A Rant about Elm
+comments: true
+lang: en
 ---
+
 First thing to note; I consider myself an Imperative programmer at heart, but also quite like Haskell (More about the super-expressive type system aspect than the functional purity aspect). Actually; quite recently I was thinking about how there is a need for a low-level language close to the metal with a Haskell-like type system, something like C with a nice type system on top (Not being really sure about the usefulness of that, just thought that that would be interesting); later noticed that I was describing something that was like Rust (So, consider me a Rust programmer at heart?).
 
 So; recently I needed to do some frontend JS work, before that I was using React + Redux + whatever on browserland as I found the data model quite nice, than I stumbled onto Elm (I think I've heard that before this year, but had no idea what it was). And upon seeing it, I was pretty favorable to it; I mean it was pretty much slightly-different (with less features) Haskell on the frontend. Yeah, there is GHCJS already that compiles down to JavaScript but I liked Elm as it was both lightweight and pretty well-integrated into the JS platform (Getting Haskell to play well with the existing web technologies can sometimes be a real bitch). Plus, my already preferred data flow pattern (Redux) was inspired by it. What's there not to like about this thing? Turns out; a few.

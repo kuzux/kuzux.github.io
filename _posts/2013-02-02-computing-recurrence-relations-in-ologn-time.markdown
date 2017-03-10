@@ -2,7 +2,9 @@
 layout: post
 title: Computing recurrence relations in O(log N) time
 lang: en
+comments: true
 ---
+
 A few days ago, while trying to solve a problem which went as;
 
 > You have unlimited supply of colored rectangles. There are five types of them:

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A Rant about recent site takedowns
+comments: true
+lang: en
 ---
 
 Recently; there has been some takedowns that sparked a bit of noise in the Turkish interwebs. So, the thing is, there were quite a few websites for movie/tv series subtitles and many of them were simultaneously taken down recently (notably altyazi.org and divxplanet.org). As far as we're aware, the takedowns were voluntary and the websites basically folded under the pressure of a litigation threat. So, in the future we might actually see a couple more of them, the ones that were threatened but not folded yet, but this time taken down forcefully, either following a court verdict or without waiting for one (we all know how 'liberal' can Turkish State be when it comes to unnecessary displays of force).
