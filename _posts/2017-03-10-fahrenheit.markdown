@@ -10,7 +10,7 @@ title: A Criticism on Fahrenheit 451 (The Comic Book adaptation)
 
 So I had read the book version of Ray Bradbury's *Fahrenheit 451* (I think it was a Turkish translation of the novel but it was definitely the novel itself in an unabridged form) all the way back in high school, 10 years ago or something and its more recent comic book adaptation was assigned at a class I'm taking, and after re-reading the thing, I have a few words to say about them (Both the novel and its comic book adaptation). 
 
-Although I don't completely agree with the chorus of the Rachel Bloom song "Fuck me, Ray Bradbury" (https://youtu.be/e1IxOS4VzKM) - as in, with the lines "Fuck me Ray Bradbury" (Would agreeing with that be Necrophilia considering that Bradbury died since the release of that song) and "The greatest Sci-Fi writer in history" (As it's quite obvious that Douglas Adams, in fact, is the greatest Sci-Fi writer in history) I agree with the line "You're a prolific author Ray Bradbury" in a bridge. I can't deny the fact he is one of my favorite Sci-Fi authors of all time. Just that I find it odd that *Fahrenheit 451* is, by far, his most popular work. 
+Although I don't completely agree with the chorus of the Rachel Bloom song ["Fuck me, Ray Bradbury"](https://youtu.be/e1IxOS4VzKM) - as in, with the lines "Fuck me Ray Bradbury" (Would agreeing with that be Necrophilia considering that Bradbury died since the release of that song) and "The greatest Sci-Fi writer in history" (As it's quite obvious that Douglas Adams, in fact, is the greatest Sci-Fi writer in history) I agree with the line "You're a prolific author Ray Bradbury" in a bridge. I can't deny the fact he is one of my favorite Sci-Fi authors of all time. Just that I find it odd that *Fahrenheit 451* is, by far, his most popular work. 
 
 ---
 
@@ -25,7 +25,7 @@ And finally, isn't it a bit ironic that it's explicitly referred to that the tra
 
 ---
 
-The Novel
+### The Novel
 
 Now here we get to the original novel. I get that the point of this book isn't to be realistic, or pretty much any Sci Fi book isn't trying to be realistic but just as we do with many, I'm going to go with that. *Fahrenheit 451* being a dystopian novel, there has to be a comparison to both *1984* and *Brave New World*. I'm going to go ahead and say that I get a more *1984*-like vibe from the book. There's very obvious government opression against books and speech in general. There's also attempts to control reality as we see when Guy Montag's escape "fails" and when people seeming to claim that all firemen ever did was burning books. This kind of strikes me as not really plausible. 
 
