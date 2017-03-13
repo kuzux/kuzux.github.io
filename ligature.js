@@ -1,6 +1,6 @@
 ﻿// ligature.js v1.0
 // http://code.google.com/p/ligature-js/
-ligature = function(extended, node) {
+var ligature = function(extended, node) {
     if (!node) {
         ligature(extended, document.body);
     }
