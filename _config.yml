@@ -1,3 +1,5 @@
 auto: true
 permalink: pretty
 markdown: kramdown
+url: https://cinar.be   # with the https protocol
+enforce_ssl: cinar.be   # without any protocol
