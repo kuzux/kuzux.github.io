@@ -49,7 +49,7 @@ In contrast to Paris, as discussed earlier, we learn very little information abo
 The artwork of Enki Bilal in the series is nothing really out of the ordinary. Although it is of notable quality, the art doesn't look too different from other comic artists from the same time and doesn't seem to contribute to the story much. This includes his use of different styles of transition as well. The art generally seems like it has been spent more time on, expected from something intended to be published as a book, as opposed to strips on a newspaper. Another notable thing is that Bilal's style is generally clearer than his American contemporaries, which might have been because of various influences by many 'European' artists before his generation where they seemed to opt for a simpler, line-art like style. 
 
 ### Conclusion
-    To conclude; although this work is a pretty easy read and flows fairly quickly, as is fairly common in other science fiction works, analyzing the setting in which the story takes place yields more results that are more 'interesting' to discuss. The finer points on Bilal's language are also fairly noteworthy. We also find out that this work is one that clearly reflects Enki Bilal's views on certain topics. 
+To conclude; although this work is a pretty easy read and flows fairly quickly, as is fairly common in other science fiction works, analyzing the setting in which the story takes place yields more results that are more 'interesting' to discuss. The finer points on Bilal's language are also fairly noteworthy. We also find out that this work is one that clearly reflects Enki Bilal's views on certain topics. 
 
 ---
 
