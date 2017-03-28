@@ -48,7 +48,7 @@ Then set some basic config options with `export PREFIX="$HOME/opt/cross"` (chang
 
 Then we need to create two directories `build_binutils` and `build_gcc`. Go into `build_binutils` and issue the command 
 
-```../binutils-<version>/configure --prefix=$PREFIX --target=$TARGET \
+```../binutils-{version}/configure --prefix=$PREFIX --target=$TARGET \
 --with-sysroot --disable-nls --disable-werror
 ```
 
@@ -56,7 +56,7 @@ and then `make` and `make install` (`sudo make install` if your prefix is not ow
 
 Now on to GCC. You need to be in a shell where the previous environment variables are still defined. Then `cd` into the `build_gcc` directory and then run 
 
-```../gcc-<version>/configure --prefix=$PREFIX --target=$TARGET \
+```../gcc-{version}/configure --prefix=$PREFIX --target=$TARGET \
 --disable-nls --enable-languages=c,c++ --without-headers
 ```
 
