@@ -36,8 +36,24 @@ Although the last two were for `Rust`, they should be useful for 64-bit specific
 
 Then we need a couple utilities for building and running the kernel. Namely, `nasm`, cross-compiled `gcc` and binutils, plus `gcc`. We can simply install `nasm` and `qemu` packages via homebrew. We'll need to comple our cross-compiling gcc and binutils, which will be explained in the next section.
 
-Then we need a couple of dependencies for building cross binutils and gcc. Namely, `gmp`, `mpfr` and `libmpc`. You can just install those via homebrew, and we'll specify their paths while building the cross-compiler
+Then we need a couple of dependencies for building cross binutils and gcc. Namely, `gmp`, `mpfr` and `libmpc`. You can just install those via homebrew, and we'll specify their paths while building the cross-compiler. Oh also, install the GNU GCC via brew as well since compiling GCC with Apple's LLVM GCC might lead to "interesting" bugs
 
 ### Building cross-gcc
+
+http://wiki.osdev.org/GCC_Cross-Compiler is the main guide to follow.
+
+First, we'll need to download gcc and binutils sources from ftp://ftp.gnu.org/gnu/binutils/ and ftp://ftp.gnu.org/gnu/gcc/. Downloading the last version should be OK but I'll continue with `gcc 5.3.0` and `binutils 2.27` as I (apparently) already downloaded their sources.Then go ahead and unzip those files. You should have `gcc-<version>` and `binutils-<version>` folders now.
+
+Then set some basic config options with `export PREFIX="$HOME/opt/cross"` (change this if you want to install the thing somewhere else) `export TARGET=x86_64-elf` (This is the cross compiling target we'll use) and `export CC=gcc-5` (So that it uses the GNU GCC, not Apple's fake one).
+
+Then we need to create two directories `build_binutils` and `build_gcc`. Go into `build_binutils` and issue the command `../binutils-<version>/configure --prefix=$PREFIX --target=$TARGET --with-sysroot --disable-nls --disable-werror` and then `make` and `make install` (`sudo make install` if your prefix is not owned by the user). Finally, test that we installed the thing by executing `$PREFIX/bin/x86_64-elf-ld --version`. If you get a meaningful answer, you've installed it correctly.
+
+Now on to GCC. You need to be in a shell where the previous environment variables are still defined. Then `cd` into the `build_gcc` directory and then run `../gcc-<version>/configure --prefix=$PREFIX --target=$TARGET --disable-nls --enable-languages=c,c++ --without-headers`. Then run `make all-gcc` and `make all-target-libgcc`. Note that executing the `make` commands might take some time, like 20-ish minutes. Then run the `make install-gcc` and `make install-target-libgcc`. Finally, we need to check that gcc is installed. Run `PREFIX/bin/x86_64-elf-gcc --version`. Again, if you get a meaningful answer, you probably installed it quickly.
+
+Finally, check if `nasm` and `qemu-system-x86_64` are installed. We'll need those tools.
+
+### Setting Up a Development Environment
+
+Although you don't really need a build system for a really quick-and dirty thing probably limited to a couple of files; anything going over 5 or 6 files tend to need one, for automation process. I'm pretty much going to copy over the stuff I've used for a previous project. It really consists of.
 
 To be written
