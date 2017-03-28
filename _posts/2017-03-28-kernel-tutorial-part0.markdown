@@ -51,6 +51,7 @@ Then we need to create two directories `build_binutils` and `build_gcc`. Go into
 ```../binutils-<version>/configure --prefix=$PREFIX --target=$TARGET \
 --with-sysroot --disable-nls --disable-werror
 ```
+
 and then `make` and `make install` (`sudo make install` if your prefix is not owned by the user). Finally, test that we installed the thing by executing `$PREFIX/bin/x86_64-elf-ld --version`. If you get a meaningful answer, you've installed it correctly.
 
 Now on to GCC. You need to be in a shell where the previous environment variables are still defined. Then `cd` into the `build_gcc` directory and then run 
