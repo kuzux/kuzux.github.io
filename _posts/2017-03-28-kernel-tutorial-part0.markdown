@@ -22,15 +22,15 @@ I'll probably face some really weird errors in the process, to the point where I
 
 First of all, we need ridiculous amounts of documentation. Google will always be your friend in this process. But to give a non-exhaustive list of suggested readings;
 
-- http://wiki.osdev.org/Main_Page (Yes, possibly all of it)
-- https://www.reddit.com/r/osdev (Start reading the top posts)
-- https://littleosbook.github.io
-- http://www.brokenthorn.com/Resources/OSDevIndex.html
-- http://www.jamesmolloy.co.uk/tutorial_html/ (JamesM might be the greatest kernel tutorial ever)
-- https://pdos.csail.mit.edu/6.828/2016/xv6/book-rev9.pdf the MIT book and its source https://github.com/mit-pdos/xv6-public
-- https://github.com/Stichting-MINIX-Research-Foundation/minix the entire minix source is a bit more advanced, but might be useful in the future
-- http://intermezzos.github.io/book/
-- http://os.phil-opp.com/
+- [http://wiki.osdev.org/Main_Page](http://wiki.osdev.org/Main_Page) (Yes, preferably all of it)
+- [https://www.reddit.com/r/osdev](https://www.reddit.com/r/osdev) (Start reading the top posts)
+- [https://littleosbook.github.io](https://littleosbook.github.io)
+- [http://www.brokenthorn.com/Resources/OSDevIndex.html](http://www.brokenthorn.com/Resources/OSDevIndex.html)
+- [http://www.jamesmolloy.co.uk/tutorial_html/](http://www.jamesmolloy.co.uk/tutorial_html/) (JamesM might be the greatest kernel tutorial ever)
+- [https://pdos.csail.mit.edu/6.828/2016/xv6/book-rev9.pdf](https://pdos.csail.mit.edu/6.828/2016/xv6/book-rev9.pdf) the MIT book and its source https://github.com/mit-pdos/xv6-public
+- [https://github.com/Stichting-MINIX-Research-Foundation/minix](https://github.com/Stichting-MINIX-Research-Foundation/minix) the entire minix source is a bit more advanced, but might be useful in the future
+- [http://intermezzos.github.io/book/](http://intermezzos.github.io/book/)
+- [http://os.phil-opp.com/](http://os.phil-opp.com/)
 
 Although the last two were for `Rust`, they should be useful for 64-bit specific stuff (Most kernel tutorials are i386)
 
@@ -46,9 +46,20 @@ First, we'll need to download gcc and binutils sources from ftp://ftp.gnu.org/gn
 
 Then set some basic config options with `export PREFIX="$HOME/opt/cross"` (change this if you want to install the thing somewhere else) `export TARGET=x86_64-elf` (This is the cross compiling target we'll use) and `export CC=gcc-5` (So that it uses the GNU GCC, not Apple's fake one).
 
-Then we need to create two directories `build_binutils` and `build_gcc`. Go into `build_binutils` and issue the command `../binutils-<version>/configure --prefix=$PREFIX --target=$TARGET --with-sysroot --disable-nls --disable-werror` and then `make` and `make install` (`sudo make install` if your prefix is not owned by the user). Finally, test that we installed the thing by executing `$PREFIX/bin/x86_64-elf-ld --version`. If you get a meaningful answer, you've installed it correctly.
+Then we need to create two directories `build_binutils` and `build_gcc`. Go into `build_binutils` and issue the command 
 
-Now on to GCC. You need to be in a shell where the previous environment variables are still defined. Then `cd` into the `build_gcc` directory and then run `../gcc-<version>/configure --prefix=$PREFIX --target=$TARGET --disable-nls --enable-languages=c,c++ --without-headers`. Then run `make all-gcc` and `make all-target-libgcc`. Note that executing the `make` commands might take some time, like 20-ish minutes. Then run the `make install-gcc` and `make install-target-libgcc`. Finally, we need to check that gcc is installed. Run `PREFIX/bin/x86_64-elf-gcc --version`. Again, if you get a meaningful answer, you probably installed it quickly.
+```../binutils-<version>/configure --prefix=$PREFIX --target=$TARGET \
+--with-sysroot --disable-nls --disable-werror
+```
+and then `make` and `make install` (`sudo make install` if your prefix is not owned by the user). Finally, test that we installed the thing by executing `$PREFIX/bin/x86_64-elf-ld --version`. If you get a meaningful answer, you've installed it correctly.
+
+Now on to GCC. You need to be in a shell where the previous environment variables are still defined. Then `cd` into the `build_gcc` directory and then run 
+
+```../gcc-<version>/configure --prefix=$PREFIX --target=$TARGET \
+--disable-nls --enable-languages=c,c++ --without-headers
+```
+
+Then run `make all-gcc` and `make all-target-libgcc`. Note that executing the `make` commands might take some time, like 20-ish minutes. Then run the `make install-gcc` and `make install-target-libgcc`. Finally, we need to check that gcc is installed. Run `PREFIX/bin/x86_64-elf-gcc --version`. Again, if you get a meaningful answer, you probably installed it quickly.
 
 Finally, check if `nasm` and `qemu-system-x86_64` are installed. We'll need those tools.
 
@@ -56,4 +67,61 @@ Finally, check if `nasm` and `qemu-system-x86_64` are installed. We'll need thos
 
 Although you don't really need a build system for a really quick-and dirty thing probably limited to a couple of files; anything going over 5 or 6 files tend to need one, for automation process. I'm pretty much going to copy over the stuff I've used for a previous project. It really consists of.
 
-To be written
+To begin; I created two separate empty git repositories; [xdillah_top](https://github.com/kuzux/xdillah_top) and [xdillah_take2](https://github.com/kuzux/xdillah_take2) and cloned the first one to my local. Then used `git submodule add git@github.com:kuzux/xdillah_take2.git kernel` to clone the take2 repository into the toplevel. 
+
+So the directory structure will be something like
+
+```
+xdillah/
+|- kernel/
+   |- .gitignore
+   |- README.md
+   |- LICENSE
+   |- Makefile
+   |- linker.ld
+   |- src/
+      |- bunch of c files
+      |- arch/
+         |- x86_64/
+            |- bunch of assembly files
+   |- target/
+      |- obj/
+         |- bunch of o files compiled from C ones
+         |- arch/
+            |- x86_64/
+               |- bunch of o files compiled from assembly files
+      |- bin/
+         |- kernel
+   |- include/
+      |- bunch of header files
+|- libc/
+   |- .gitignore
+   |- README.md
+   |- LICENSE
+   |- Makefile
+   |- src/
+      |- Bunch of vendor stuff?
+   |- include/
+      |- Bunch of vendor header stuff?
+   |- target/
+      |- obj/
+         |- again, bunch of o files
+      |- lib/
+         |- libc.a
+         |- libk.a
+|- sysroot/
+   |- boot/
+      |- kernel
+   |- we'll probably need more stuff in sysroot in the future.
+|- config.sh
+|- build.sh
+|- qemu.sh
+|- bunch of other shell files
+|- README.md
+|- LICENSE
+|- possibly other projects?
+```
+
+The projects should all be a git submodule. In the end, we'll probably 'write' a libc for our own OS which will essentially be a port of `musl` or a similar libc implementation. The `libk` is just libc implemented to be statically linked to the kernel, not using any syscall's etc.
+
+Rest to be written
