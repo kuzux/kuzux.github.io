@@ -86,7 +86,9 @@ xdillah/
       |- bunch of c files
       |- arch/
          |- x86_64/
+            |- make.config
             |- bunch of assembly files
+            |- linker.ld
    |- target/
       |- obj/
          |- bunch of o files compiled from C ones
@@ -104,6 +106,10 @@ xdillah/
    |- Makefile
    |- src/
       |- Bunch of vendor stuff?
+      |- arch/
+         |- x86_64/
+            |- make.config
+            |- bunch of assembly files/vendor stuff?
    |- include/
       |- Bunch of vendor header stuff?
    |- target/
@@ -127,4 +133,4 @@ xdillah/
 
 The projects should all be a git submodule. In the end, we'll probably 'write' a libc for our own OS which will essentially be a port of `musl` or a similar libc implementation. The `libk` is just libc implemented to be statically linked to the kernel, not using any syscall's etc.
 
-Rest to be written
+The contents of individual files aren't too exciting on their own. They can be found on the `xdillah_top` repository tagged with `part0`.
