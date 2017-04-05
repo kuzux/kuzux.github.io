@@ -5,4 +5,4 @@ comments: true
 lang: en
 ---
 
-* This space intentionally left blank *
+*This space intentionally left blank*
