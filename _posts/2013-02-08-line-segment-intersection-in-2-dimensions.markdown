@@ -6,7 +6,7 @@ comments: true
 ---
 
 <script src = "/line-segment-intersection.js"> </script>
-<style> canvas{ width: 150px; height: 150px; float:left;} .push-down{padding-top: 50px;} </style>
+<style> canvas { width: 150px; height: 150px; float:left; } .push-down{padding-top: 50px;} </style>
 
 
 * wat
@@ -18,14 +18,14 @@ Geometric things have always been really tricky to program for me, and quite a l
 
 <div class="row">
 <canvas id="not-intersecting" class="draw-lines span6" data-line1="30 60 80 120" data-line2="80 50 130 100"> </canvas>
-<p class="span6 push-down">
+<p class="col-xs-12 col-md-6 push-down">
 Not intersecting
 </p>
 </div>
 
 <div class="row">
-<canvas id="intersecting" class="draw-lines span6" data-line1="30 40 80 120" data-line2="80 30 30 120"> </canvas>
-<p class="span6 push-down">
+<canvas id="intersecting" class="draw-lines col-xs-12 col-md-6" data-line1="30 40 80 120" data-line2="80 30 30 120"> </canvas>
+<p class="col-xs-12 col-md-6 push-down">
 Intersecting
 </p>
 </div>
@@ -33,15 +33,15 @@ Intersecting
 So, how do we find whether two lines are intersecting? In the first example; consider the red line segment, and the line segment from top of red segment to both ends of the green segment.Call them $$\bf{a}$$, $$\bf{b_1}$$ and $$\bf{b_2}$$ respectively.
 
 <div class="row">
-<canvas class="draw-lines draw-vectors span6" data-line1="30 60 80 120" data-line2="80 50 130 100"> </canvas>
-<p class="span6 push-down">
+<canvas class="draw-lines draw-vectors col-xs-12 col-md-6" data-line1="30 60 80 120" data-line2="80 50 130 100"> </canvas>
+<p class="col-xs-12 col-md-6 push-down">
 Notice that both of the vectors are to the right of the line segment.
 </p>    
 </div>
 
 <div class="row">
-<canvas class="draw-lines draw-vectors span6" data-line1="30 40 80 120" data-line2="80 30 30 120"> </canvas>
-<p class="span6 push-down">
+<canvas class="draw-lines draw-vectors col-xs-12 col-md-6" data-line1="30 40 80 120" data-line2="80 30 30 120"> </canvas>
+<p class="col-xs-12 col-md-6 push-down">
 One of the vectors is to the left of the red line, and the other is to the right of it
 </p>
 </div>
@@ -53,8 +53,8 @@ So, just check whether the opposite ends of the second segment are on the opposi
 In this case; one end of the green line segment is to the left of the red one and the other one is to the right, but they don't intersect. To solve this, just check for both line segments.
 
 <div class="row">
-<canvas class="draw-lines draw-vectors span6" data-line2="30 40 40 100" data-line1="80 80 30 120"> </canvas>
-<p class="span6 push-down">
+<canvas class="draw-lines draw-vectors col-xs-12 col-md-6" data-line2="30 40 40 100" data-line1="80 80 30 120"> </canvas>
+<p class="col-xs-12 col-md-6 push-down">
 See how both ends of the green segment is to the left of the red one in this flipped graph?
 </p>    
 </div>
