@@ -1,0 +1,24 @@
+---
+layout: post
+title: An Uunlikely Superhero
+lang: en
+comments: true
+---
+
+That thing started out as an aborted comic book idea in a group discussion, but it wasn't fleshed out at all at that stage. Was more of a writing prompt, really (Literally three words; "Genc Osman Batman"). The idea was actually far fetched enough to be amusing. That's actually my first attempt at writing a story and I really expect it to turn out very shitty. Hopefully, not erotic fanfiction level shitty. So, here goes;
+
+---
+
+Sometimes, Osman felt very overwhelmed. Far too overwhelmed for someone of his age, a teenager after all. Those times he just felt like Atlas, carrying a huge weight on his shoulders. He knew and remembered from heart, that exact story from his pompous education by a lala. "Obviously, not everyone had the access to such riches" he thought, both remembering his early childhood fondly and lamenting his heritage. At those times, he was comforting himself with that same exact story; the only major difference being his suffering is not a divine punishment, but a divine duty, an obligation. "Am I not the shadow of Allah on this world?" he wondered; obviously the figure to liken his suffering to would be a divine one, like Atlas. 
+
+He also liked the fact that he was rebelling against the Olympian "establishment" and quite often, he liked to see himself like a titan in that regard as well. "Είμαι Άτλας", he would mutter in the courtyard, especially when there is nobody around to understand his Greek. His mother, of Greek origin, had died years ago. His father had also died suddenly a couple of years ago, leaving him both emotionally devastated and physically locked up. While not exactly an uncomfortable prison cell, being locked up didn't do any good for him. Nor was seeing the dead body of his father up close, at a moment he was definitey not prepared to do that a good thing for his mental health. At least he could thank his uncle for not having him killed. That was a plus, if we can call it one. 
+
+Just like any other teenager, he was a bit idealistic in both matters of state and more worldly ones. He just liked to help people, his subjects, viewing them like people in need of a good ruler. With good intentions, but as people from a different class to him. Helping them out whenever they needed. As any person in a position of power, he also liked his post and would defend it at all costs. To do that, he felt like he needed to fight. Not only that he needed to fight wars or courtly power struggles as were common in Istanbul, but he also felt like he needed to fight the petty criminals in the streets of Istanbul. "Bre Deyyus!" he would go, slamming his opponent down to the ground. He was a man of considerable strength for someone his age. Were his feelings for fighting for the common man just due to teenage idealism? Possibly. Were those feelings stemmed from his desire to reform? Were those just due to his adolescent naïveté? And what about his mental state for the last few years?
+
+Thankfully he had the means to do both his wishes since his coronation following a coup d'etat by the Janissary corps. His coronation was actually purely out of luck as some of the Janissaries just liked to depose his uncle Mustafa, not really caring about who came next. During the coronation (and right after) the Janissaries wanted to kill his uncle, he had sharply objected to that. He had only agreed to imprison him to shut them up. He was able to get some sort of a "cave" underneath his palace, in a courtyard where he could store his "gadgets" and stuff for fighting crime. He was able to get a lot of things, even including a few incredibly elaborate machines that were claimed to be perpetual motion machines (none of those worked obviously), as he was ruling the possibly largest empire at the time (Definitely the largest one in his eyes, or more like the only one). His cave included things like weird personal arms (think mace-like arms but incredibly specific ones), possibly useful but not practical things like ridiculously-long chains, entirely useless ones like the perpetual motion machines we mentioned above, things like healing elixirs and even things like steam-powered gadgets (many of them based on things like Aeolipilae).
+
+While Mustafa, even in prison, commanded a formidable force outside, both by the fact that he was able to speak with Janissary Aghas time to time, and by the fact that he could communicate with animals and directly control some of them. 
+
+---
+
+Well, that just felt like it would have been much better as a comic book, guess why? Maybe one day, I'll attempt that as well. However, my drawing skills are somewhere between horrendous and abhorrent. I'm also very likely to get an idea and abandon it very quickly. So, I wouldn't really count on it to happen.
