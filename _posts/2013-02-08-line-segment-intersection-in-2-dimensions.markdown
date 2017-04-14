@@ -17,7 +17,7 @@ comments: true
 Geometric things have always been really tricky to program for me, and quite a lot of other people as well. I think I need more practice coding geometric stuff and explaining them in a post would help me remember them well. So I decided this would be the first step since finding whether two line segments on a cartesian plane intersect or not is pretty much the simplest problem to be faced in computational geometry. And hopefully, this will be the first in a series of blog posts.
 
 <div class="row">
-<canvas id="not-intersecting" class="draw-lines span6" data-line1="30 60 80 120" data-line2="80 50 130 100"> </canvas>
+<canvas id="not-intersecting" class="draw-lines col-xs-12 col-md-6" data-line1="30 60 80 120" data-line2="80 50 130 100"> </canvas>
 <p class="col-xs-12 col-md-6 push-down">
 Not intersecting
 </p>
