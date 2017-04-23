@@ -19,7 +19,7 @@ Come to think of it, one of the purity guarantees is not used at all, and that i
 
 <div class="floater">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Haskell-Logo.svg/200px-Haskell-Logo.svg.png" />
-    Haskell logo
+    <p>Haskell logo</p>
 </div>
 Now we come to the big one. Lack of typeclasses. Seriously, that is a capital WHAT THE FUCK. I mean, typeclasses do not have to be explicitly within the language, but at least something analogous to it has to be. Yeah, we can technically emulate typeclasses by passing a map of methods as an extra argumet, but that's like claiming that C is object-oriented. That's pretty much like removing interfaces from Java or C# and putting nothing in to replace it. The fact that this decision is defended religiously by people claiming that 'it's too complicated' sounds extremely like Go and its generics (Let' not get into that argument, ever). I would understand that if we include structural typing with records and stuff as well as typeclasses the type inference can't work but I think it can (if we generate a typeclass for each field some record has, then we've gotten rid of the structural aspect of the type system). And even then if I had to choose two out of three between structural typing, typeclasses and type inference, i would choose the first two. 
 
