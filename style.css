@@ -78,3 +78,14 @@ a h1 {
     color: rgb(51, 51, 51);
     text-decoration: none;
 }
+
+.floater {
+    float: right;
+    margin: 0.5em;
+    padding: 0.2em;
+    border: 1px #555 solid;
+}
+
+.floater img {
+    margin: 0.2em;
+}
