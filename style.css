@@ -88,7 +88,10 @@ a h1 {
 }
 
 .floater img {
-    margin: 0.2em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .floater p {
