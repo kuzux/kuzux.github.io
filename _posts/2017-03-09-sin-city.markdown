@@ -9,6 +9,10 @@ What follows is originally an assignment for school, posting it only after I sub
 
 The general style of the comics series Sin City is very film-like. To be more specific, it's more or less drawn as if it's inspired by a film noir crime thriller/action movie. The plot is like that, but the general white-on-black style of the comics adds a lot to that effect. 
 
+<div class="floater">
+    <img src="/familyvalues.png" />
+    <p>Cover of Sin City: Family Values</p>
+</div>
 In comic books, perhaps in all visual arts, in general, creators tend to use a 'darker' style for a more adult-like, grittier atmosphere. For the Frank Miller and many other comics artists, using that as a personal style might make the final product seem less like one aimed at children (which unfortunately exists as a common stigma against comics in the general populace). 
 
 Another notable feature in the books is that the author uses a lot of line-shadings in the art, and those lines are very erratic. This style looks like the shadings were done in a hurry, and it gives a significant 'eerie' sentiment to the final work; which contributes a lot to the thriller movie like atmosphere. This decision might not be a very intentional one, as it's generally easier to do it that way if you're doing a lot of shading like Frank Miller does, but the fact that there seems to be very deliberately drawn white splotches on otherwise plain-black colored objects (like the two characters on page 26) suggests otherwise.
